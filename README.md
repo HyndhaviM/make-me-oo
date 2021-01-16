@@ -26,3 +26,11 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+
+Problems with the code base:
+
+- DistanceAndDirectionCalculator doesn't have any properties and it uses static methods which makes it non procedural
+- Point class have getter and setters for X and Y which breaks encapsulation
+- Point class only have properties. It doesn't have any behaviour
+- Point class properties are not final meaning that they can be changed after creating a point which doesn't make sense.
